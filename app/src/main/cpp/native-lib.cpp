@@ -10,7 +10,7 @@ Java_com_electroteach_mike_mycppapplication_MainActivity_stringFromJNI(JNIEnv *
 								       /* this */
 								       )
 {
-	string str1 ="hello";
+	string str1 = "hello";
 	string str2 = "world";
 	string str3 ;
 
@@ -108,7 +108,7 @@ str3 = str1 + str2;
 
 	std::string hello;
     hello = "Hello from C++, vk3kmj"+ blank;
-	std::string mike = "vk3kmj";
+	std::string mike = "vk3kmj g7tkm";
 	return env->NewStringUTF(hello.c_str());
 }
 

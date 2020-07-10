@@ -1,0 +1,12 @@
+#include <jni.h>
+#include <string>
+
+extern "C"
+jstring
+Java_com_electroteach_mike_mycppapplication_MainActivity_stringFromJNI(
+        JNIEnv* env,
+        jobject /* this */) {
+    std::string hello = "Hello from C++, vk3kmj";
+    std::string mike = "vk3kmj";
+    return env->NewStringUTF(hello.c_str());
+}
